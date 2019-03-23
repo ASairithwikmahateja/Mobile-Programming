@@ -11,15 +11,8 @@ public class Global{
         return cart;
     }
 
-//    public static void setCart(ArrayList<CartProduct> cart) {
-//
-//    }
-
     public static double getS1() {
         return s1;
     }
-//
-//    public void setS1(double s1) {
-////        this.s1 = s1;
-//    }
+
 }

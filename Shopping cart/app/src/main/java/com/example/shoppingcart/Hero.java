@@ -1,6 +1,5 @@
 package com.example.shoppingcart;
 
-
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -112,7 +111,7 @@ public class Hero extends AppCompatActivity implements Serializable {
     public String getProductPicUrl() {
         return ProductPicUrl;
     }
-    //
+
     public String getSupplierName() {
         return SupplierName;
     }
@@ -128,7 +127,7 @@ public class Hero extends AppCompatActivity implements Serializable {
     public String getUoM() {
         return UoM;
     }
-    //
+
     public String getWeightUnit() {
         return WeightUnit;
     }
@@ -256,22 +255,6 @@ public class Hero extends AppCompatActivity implements Serializable {
 //        System.out.println(cart);
 
     }
-
-//
-//        button3.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//
-////                Toast.makeText(Hero.this, "items in cart you have selected "+ productData.getName() , Toast.LENGTH_SHORT).show();
-//
-//                Intent it = new Intent(Hero.this, CartProduct.class);
-//                System.out.println(cart);
-//                it.putExtra("Cart", (Serializable) cart);
-//                startActivity(it);
-//            }
-//        });
-//
-//        }
 }
 
 class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {

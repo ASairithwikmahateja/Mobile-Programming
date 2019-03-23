@@ -26,7 +26,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String JSON_URL = "http://msitmp.herokuapp.com/getproducts/20186039";
+    private static final String JSON_URL = "http://msitmp.herokuapp.com/getproducts/20186025";
 
     //listview object
     ListView listView;
@@ -60,8 +60,6 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-//                Toast.makeText(MainActivity.this, "Hai " , Toast.LENGTH_SHORT).show();
-
                 Intent intent = new Intent(MainActivity.this, Hero.class);
 
                 intent.putExtra("Product", (Serializable) heroList.get(i));

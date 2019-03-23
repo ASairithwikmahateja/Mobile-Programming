@@ -59,19 +59,11 @@ public class CartProduct extends AppCompatActivity implements Serializable {
         for(int k= 0;k<cart.size();k++) {
             tx.setText(" Total: " + Global.getS1() + " /-");
             TextView tx1 = (TextView) findViewById(R.id.textView1);
-//            str1+=cart.get(k).pName + " \n";
-//            tx1.setText(str1);
             tx1.setText(cart.get(k).pName + " ");
         System.out.println(cart + "------------");
         Log.i("Hello", cart + " ");
 
         }
-//        tx.setText(" Total: " + cart.get(0).price + " /-");
-
-//        TextView tx1 = (TextView) findViewById(R.id.textView1);
-//        tx1.setText(cart.get(0).pName + " ");
-//        System.out.println(cart + "------------");
-//        Log.i("Hello", carts + " ");
     }
 
 
